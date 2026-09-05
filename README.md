@@ -1,3 +1,19 @@
+> [!IMPORTANT]
+> **This repository is retired.** `service_finder` is developed in the
+> [`fastverk/platform`](https://github.com/fastverk/platform) ship vehicle, at
+> [`service-finder/`](https://github.com/fastverk/platform/tree/main/service-finder).
+> Open issues and pull requests there.
+>
+> The published module is unchanged — `bazel_dep(name = "service_finder", version = "0.0.1")`.
+> This remote keeps its full history and every tag, including the
+> `service-finder-client-v*` Rust client crate line, so existing pins stay valid.
+> The `fastverk.finder.v1` protos are published from
+> [`fastverk/contracts`](https://github.com/fastverk/contracts).
+>
+> Retired at [`abc7641`](https://github.com/fastverk/service-finder/commit/abc764147a63ef0c48b84ad102010980ed8d5415),
+> the commit the vehicle imported — nothing here is unimported. Background:
+> [Consolidation](https://docs.fastverk.com/consolidation.html).
+
 # service-finder
 
 Semantic / **capability-based service discovery** for fastverk. One gRPC call —
